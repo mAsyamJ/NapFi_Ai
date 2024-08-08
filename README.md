@@ -1,196 +1,100 @@
-# Create a Token Staking DApp & Earn Rewards on Any Blockchain
 
-Create a Token Staking DApp & Earn Rewards with ICO using Next.js, WAGMI, Solidity and Deploy on Any Blockchain!
+# NapFi MVP - by mAsyamJ
 
-Ready to build your own Token Staking DApp and earn rewards with an ICO? In this comprehensive tutorial, we'll guide you step-by-step through creating a decentralized application using Next.js, WAGMI, and Solidity on any blockchain. Whether you're a beginner or an experienced developer,
+# 🌾 NapFi
 
-By the end of this video, you'll have a fully functional DApp capable of staking tokens and earning rewards. Don't forget to like, subscribe, and hit the bell icon to stay updated with our latest tutorials!
+**NapFi** is a lightweight, non-custodial decentralized application (dApp) that helps crypto users discover and stake into top-performing DeFi protocols offering high yields with Ai by base agent kit.
 
-## Project Overview
+---
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2024/08/Create-a-Token-Staking-DApp-Earn-Rewards-on-Any-Blockchain.jpg)
+## 🚀 Features
 
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
+- 🔗 **Connect Wallet**
+  Easily connect your Web3 wallet (e.g., MetaMask, Phantom) to start exploring yield opportunities.
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/create-a-token-staking-dapp-and-earn-rewards-on-any-blockchain)
+- 📊 **Explore Yield Opportunities**
+  Browse through a curated list of the highest-yielding DeFi protocols across multiple chains.
 
-#### Setup Video
+- 💸 **Stake in One Click**
+  Select a protocol and stake directly through the YieldHub interface without needing to leave the app.
 
-- [Final Code Setup video](https://youtu.be/VaIf4wkzl4c?si=xNvjLuauIxmq87IP)
+- 🧾 **Transparent Fees**
+  A small transaction fee (between **0.1% – 0.3%**) is applied to every stake action. This helps sustain the protocol and reward contributors.
 
-```
-  WATCH: Setup & Demo Of Project
-```
+- 🔐 **Non-Custodial by Design**
+  You retain full control of your assets. YieldHub **never holds your funds** — all staking interactions happen directly between you and the protocol.
 
-#### Install Vs Code Editor
+---
 
-```
-  URL: https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
+## 🌐 Vision
 
-#### NodeJs & NPM Version
+> YieldHub aims to be the "**Sky DeFi**" – a simple, fast, and reliable way for users to fly between the clouds of DeFi yield farming without worrying about complexity or risk of custody.
 
-```
-  URL: https://nodejs.org/en/download
-  NodeJs: v18.17.1 || LATEST VERSION
-  NPM: 8.19.2 || LATEST VERSION
-```
+---
 
-#### ALL SOURCE CODE
+## 🛠️ Tech Stack
 
-```
-PROJECT CODE: https://www.theblockchaincoders.com/sourceCode/create-a-token-staking-dapp-and-earn-rewards-on-any-blockchain
- URL: https://www.theblockchaincoders.com/SourceCode
-  GET: Project Starter File Download
-```
+- Solidity / Hardhat (Ethereum-based smart contracts)
+- JavaScript / Next.js (Frontend)
+- Ethers.js / Wagmi for wallet integration
+- Alchemy or Infura (RPC connection)
+- IPFS / Fleek (for decentralized hosting - coming soon)
 
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
+---
 
-## Final Code Instruction
+## 📦 Getting Started
 
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
+1. Clone this repository:
+   ```
+   git clone https://github.com/yourusername/yieldhub.git
+   cd yieldhub
+   ```
 
-#### What You Will Get
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-Once you download the final source code, you will get a ZIP file, then you will have 2 FOLDERS & README file which contain all the instructions to run the project and set video
+3. Configure `.env`:
+   ```
+   SEPOLIA_URL=https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_KEY
+   PRIVATE_KEY=your_private_key_without_0x
+   ```
 
-#### Setup Video
+4. Compile contracts:
+   ```
+   npx hardhat compile
+   ```
 
-```
-  WATCH: Setup & Demo Of Project
-```
+5. Run local Hardhat node (in a separate terminal):
+   ```
+   npx hardhat node
+   ```
 
-#### ALL SOURCE CODE
+6. Deploy contracts:
+   ```
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
 
-```
-  STARTER_FILE: https://github.com/daulathussain/Health-Care-Dapp-Starter-File
- URL: https://www.theblockchaincoders.com/SourceCode
-  GET: Project Starter File Download
-```
+---
 
-#### Install Vs Code Editor
+## 🤝 Contributing
 
-```
-  URL: https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
-#### NodeJs & NPM Version
+---
 
-```
-  URL: https://nodejs.org/en/download
-  NodeJs: v18.17.1
-  NPM: 8.19.2
-```
+## 📜 License
 
-#### RPU URL PROVIDER
+[MIT](LICENSE)
 
-```
-  NAME: ANKR.COM
-  URL: https://www.ankr.com/rpc/
-```
+---
 
-#### FORMSPREE
+## 🌟 Support the Project
 
-```
-  # FORMSPREE
-  URL: https://formspree.io/
-```
-
-#### Google Cloud Web3
-
-Google Cloud Web3 will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```
-  Get: Free Test Faucets
-  URL : https://cloud.google.com/application/web3/faucet/ethereum
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```
-  OPEN: RemixID
-  URL: https://remix-project.org
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-
-#### PACKAGES
-
-```
-  {
-  "name": "staking-dapp",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@formspree/react": "^2.5.1",
-    "@headlessui/react": "^1.6.6",
-    "@heroicons/react": "^1.0.6",
-    "@next/font": "13.4.13",
-    "@nextui-org/react": "^1.0.0-beta.9",
-    "@rainbow-me/rainbowkit": "^0.4.6",
-    "ethers": "^5.7.2",
-    "next": "13.4.13",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-hot-toast": "^2.4.1",
-    "react-icons": "^4.10.1",
-    "wagmi": "^0.6.4"
-  }
-}
+If you like this project, give it a ⭐ on GitHub, or consider using it and providing feedback. You can also tip the devs with ETH, USDC, or your favorite meme token 😄
+Solana: DWjYbxHb9WRwdVDGLK8pS5a5MyPVct7oY6XBBEF4Ni7Y
 
 ```
 
-#### ENVIROMENT VARIABLES
 
-```
-# STAKING DAPP ADDRESS
-NEXT_PUBLIC_STAKING_DAPP =
-NEXT_PUBLIC_TOKEN_ICO =
-
-# TOKEN ADDRESS
-NEXT_PUBLIC_DEPOSIT_TOKEN =
-NEXT_PUBLIC_REWARD_TOKEN =
-NEXT_PUBLIC_TOKEN_LOGO = https://gateway.pinata.cloud/ipfs/QmXTwJ2GgxbWET7uxyKaidT2isPF83YhQP77acskvZbCGu
-
-# ADMIN
-NEXT_PUBLIC_ADMIN_ADDRESS =
-
-
-# CURRANY
-NEXT_PUBLIC_CURRENCY = ETH
-NEXT_PUBLIC_CHAIN_ID = 17000
-NEXT_PUBLIC_NETWORK_NAME = Holesky
-NEXT_PUBLIC_NETWORK_DECIMALS = 18
-NEXT_PUBLIC_NETWORK = holesky
-
-# RPC URLS
-
-NEXT_PUBLIC_HOLESKY_RPC_URL = https://rpc.ankr.com/eth_holesky
-NEXT_PUBLIC_ADDRESS_EXPLORER = https://holesky.etherscan.io/address/
-NEXT_PUBLIC_TOKEN_EXPLORER = https://holesky.etherscan.io/token/
-NEXT_PUBLIC_EXPLORER = https://holesky.etherscan.io/
-
-# FORMSPREE
-NEXT_PUBLIC_FORMSPREE_API =
-
-```
