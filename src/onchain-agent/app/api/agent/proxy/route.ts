@@ -111,7 +111,8 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   };
 
   try {
-    return await makeRequest();
+    const response = await makeRequest();
+    return NextResponse.json(await response.json(), { status: response.status, headers: response.headers });
   } catch (error) {
     console.error('Final error:', error);
     return NextResponse.json(
