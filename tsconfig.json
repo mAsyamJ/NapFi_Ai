@@ -1,27 +1,33 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "incremental": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"], // Common in both
+    "allowJs": true, // Common in both
+    "skipLibCheck": true, // Common in both
+    "strict": true, // Set to true for stricter type checking (from onchain-agent)
+    "forceConsistentCasingInFileNames": true, // From root NapFi
+    "noEmit": true, // Common in both
+    "incremental": true, // Common in both
+    "esModuleInterop": true, // Common in both
+    "module": "esnext", // Common in both
+    "moduleResolution": "node", // Using "node" for compatibility (from root NapFi)
+    "resolveJsonModule": true, // Common in both
+    "isolatedModules": true, // Common in both
+    "jsx": "preserve", // Common in both
     "baseUrl": ".", // Base directory for imports
     "paths": {
-      "@/*": ["src/*"] // Map @ to src/*
-    }
+      "@/*": ["src/*"] // Map @ to src/* (from root NapFi, adjusted for consistency)
+    },
+    "plugins": [
+      {
+        "name": "next" // From onchain-agent
+      }
+    ]
   },
   "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
+    "next-env.d.ts", // From root NapFi
+    "**/*.ts", // Common in both
+    "**/*.tsx", // Common in both
+    ".next/types/**/*.ts" // From onchain-agent
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"] // Common in both
 }

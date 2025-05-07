@@ -3,10 +3,10 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link'; // Keep for any actual external/other page links if needed in future
 // Assuming these components and types exist in your project structure:
-import SearchInterface from '@/components/SearchInterface';
-import Dashboard from '@/components/Dashboard';
-import Bookmarks from '@/components/Bookmarks';
-import { SearchResult } from '@/types/search';
+import SearchInterface from '../../../components/SearchInterface';
+import Dashboard from '../../../components/Dashboard';
+import Bookmarks from '../../../components/Bookmarks';
+import { SearchResult } from '../../../types/search';
 
 // Placeholder definitions for missing components/types for illustration
 // In your actual project, remove these if SearchInterface, Dashboard, Bookmarks, SearchResult are correctly imported.
